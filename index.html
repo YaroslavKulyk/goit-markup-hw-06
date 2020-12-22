@@ -433,11 +433,29 @@
               </li>
             </ul>
           </div>
+          <div class="subscribe">
+            <b class="join-appeal">Подпишитесь на рассылку</b>
+            <form class="subscribe-form">
+              <label>
+                <input
+                  type="email"
+                  class="subscribe-input"
+                  placeholder="E-mail"
+                />
+              </label>
+              <button class="subscribe button">
+                <span class="subscribe-button-text">Подписаться</span>
+                <svg width="24" height="24" class="icon">
+                  <use href="./images/sprite.svg#send"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </footer>
     <!-- Модалка -->
-    <div class="backdrop" data-modal>
+    <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="button-close" data-modal-close>
           <svg class="icon">
